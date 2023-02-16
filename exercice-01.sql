@@ -50,7 +50,7 @@ WHERE id != 3;
 -- Écrivez la requête qui permet de lister les students dont l'email contient la chaîne de caractères `.com`
 
 SELECT * FROM `student` 
-WHERE email LIKE '%.com';
+WHERE email LIKE '%.com%';
 
 -- Exo 1.8
 -- Écrivez la requête qui permet de lister les students dont la date de création est antérieure au 10 janvier 2021 inclus
